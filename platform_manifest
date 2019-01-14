@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="aosp" fetch="https://android.googlesource.com" />
-   <remote name="muppets" fetch="https://github.com/TheMuppets/proprietary_vendor_samsung"
+   <remote name="muppets" fetch="https://github.com/TheMuppets/proprietary_vendor_samsung" />
    <remote name="private" fetch="https://github.com/lolrofllol" />
    <default revision="refs/tags/android-6.0.1_r81" remote="aosp" />
    <default revision="cm-13.0" remote="muppets" />
