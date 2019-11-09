@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-   <remote name="aosp" fetch="https://android.googlesource.com" revision="android-7.1.1_r61" />
+   <remote name="aosp" fetch="https://android.googlesource.com" />
    <remote name="muppets" fetch="https://github.com/TheMuppets" revision="cm-14.1" />
    <remote name="private" fetch="https://github.com/lolrofllol" revision="cm-14.1" />
    <remote name="exynos5420" fetch="https://github.com/exynos5420" revision="cm-14.1" />
