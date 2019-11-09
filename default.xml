@@ -8,4 +8,7 @@
    <project path="device/samsung/chagallwifi" name="android_device_samsung_chagallwifi" remote="exynos5420" />
    <project path="device/samsung/exynos5420-common" name="android_device_samsung_exynos5420-common" remote="exynos5420" />
    <project path="kernel/samsung/exynos5420" name="android_kernel_samsung_exynos5420" remote="exynos5420" />
+
+<include name="snippets/aosp.xml" />
+
 </manifest>
