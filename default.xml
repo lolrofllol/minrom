@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
    <remote name="aosp" fetch="https://android.googlesource.com" />
-   <remote name="muppets" fetch="https://github.com/TheMuppets/proprietary_vendor_samsung" />
+   <remote name="muppets" fetch="https://github.com/TheMuppets" />
    <remote name="private" fetch="https://github.com/lolrofllol" />
-   <default revision="refs/tags/android-6.0.1_r81" remote="aosp" />
-   <default revision="cm-13.0" remote="muppets" />
-   <project path="vendor/samsung/chagallwifi" name="chagallwifi" remote="muppets"/>
+   <remote name"exynos5420" fetch="https://github.com/exynos5420" />
+   <default revision="refs/tags/android-7.1.1_r61" remote="aosp" />
+   <default revision="cm-14.1" remote="muppets" />
+   <default revision="cm-14.1" remote="exynos5420" />
+   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="exynos5420"/>
+   <project path="device/samsung/chagallwifi" name="android_device_samsung_chagallwifi" remote="exynos5420"/>
+   <project path="device/samsung/exynos5420-common" name="android_device_samsung_exynos5420-common" remote="exynos5420"/>
+   <project path="kernel/samsung/exynos5420" name="android_kernel_samsung_exynos5420" remote="exynos5420"/>
 </manifest>
